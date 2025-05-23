@@ -1,9 +1,32 @@
 <h1 align="center">📱 ReactNativeWebViewApp</h1>
 
 <p align="center">
-  <b>A cross-platform mobile WebView app built using React Native and Expo.</b><br>
+  <b>A cross-platform mobile WebView app built with React Native & Expo.</b><br/>
   <sub>Developed by <a href="https://github.com/shashankksoni">Shashank Kumar Soni</a></sub>
 </p>
+
+<p align="center">
+  <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/shashankksoni/ReactNativeWebViewApp?style=social" />
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shashankksoni/ReactNativeWebViewApp" />
+  <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  <img alt="Expo version" src="https://img.shields.io/badge/Expo-v48-green" />
+  <img alt="React Native" src="https://img.shields.io/badge/React_Native-0.71.7-blue" />
+</p>
+
+---
+
+## 📋 Table of Contents
+
+- [🚀 Features](#-features)  
+- [🧑‍💻 How It Works](#-how-it-works)  
+- [🛠️ Prerequisites](#️-prerequisites)  
+- [▶️ How to Run Locally](#️-how-to-run-locally)  
+- [🚀 Deployment & Publishing](#-deployment--publishing)  
+- [🗂️ Project Structure](#️-project-structure)  
+- [🤝 Collaboration & Future Features](#-collaboration--future-features)  
+- [📄 License](#-license)  
+- [🙋‍♂️ Author](#-author)  
+- [⭐️ Support](#️-support)  
 
 ---
 
@@ -39,20 +62,21 @@ Replace "https://your-website-url.com" with your actual website URL.
 
 ## 🛠️ **Prerequisites**
 
-- Node.js (v16+ recommended)
-- Expo CLI installed globally: Run this command in your **VS Code terminal or command prompt:**
+Make sure you have these installed:
+- Node.js (v16+ recommended)([https://nodejs.org/](https://nodejs.org/en))
+- Install Expo CLI globally (run in VS Code terminal or command prompt)
   ```npm install -g expo-cli```
 - Android or iOS device/emulator for testing
 ---
 
 ## ▶️ How to Run Locally
-Run all commands in your VS Code terminal or your preferred command-line interface.
+Run all these commands in your VS Code terminal or your preferred command-line interface.
 
 1. Clone the repository: ```git clone https://github.com/shashankksoni/ReactNativeWebViewApp.git```
 2. Navigate to the project folder: ```cd ReactNativeWebViewApp```
 3. Install dependencies: ```npm install``` or ```yarn install```
 4. Start the Expo development server: ```npx expo start -c``` Here, -c means when it will start running the Expo Server it will remove all the cache file first and then it      starts the server. It is not necessary to run but you can there is no harm otherwise you can run only: ```npx expo start```
-5. Run on device or emulator:
+5. Then, launch the app: Run on device or emulator:
    - First intall the Expo Go app on your android/iOS phone.
    - Scan the QR code with Expo Go app on your phone.
    - Or launch simulators from Expo CLI options.
@@ -123,6 +147,9 @@ If you find this project useful, please give it a ⭐️ on GitHub!
 
 <p align="center"> Made with ❤️ by Shashank </p> 
 
+
+## 🎬 Demo Preview
+<p align="center"> <img src="https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/demo.gif" alt="Demo GIF" width="300" /> </p> ```
 
 
 
