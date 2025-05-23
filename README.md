@@ -34,7 +34,7 @@ Example:
 ```jsx
 <WebView source={{ uri: "https://your-website-url.com" }} />
 Replace "https://your-website-url.com" with your actual website URL.
-
+```
 ---
 
 ## 🛠️ **Prerequisites**
@@ -99,7 +99,8 @@ This project is licensed under the MIT License.
 ## 🙋‍♂️ Author
 Shashank Kumar Soni
 📧 shashanksoni192@gmail.com
-🔗 GitHub Profile
+🔗 [GitHub Profile](https://github.com/shashankksoni)
+
 
 ## 🤝 Collaboration & Future Features
 If you would like to suggest new features or collaborate on improvements for this app, feel free to reach out to me anytime!
@@ -113,7 +114,7 @@ I’m open to working together to enhance this project with new functionality an
 ## ⭐️ Support
 If you find this project useful, please give it a ⭐️ on GitHub!
 
-<p align="center"> Made with ❤️ by Shashank </p> ```
+<p align="center"> Made with ❤️ by Shashank </p> 
 
 
 
