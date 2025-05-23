@@ -30,14 +30,14 @@ export default function App() {
         <View style={styles.container}>
           {Platform.OS === 'web' ? (
             <iframe
-              src={'https://your-website-url.com'}
+              src={'https://your-website-url.com'}    //Replace "https://your-website-url.com" with your actual website URL.
               style={{ width: "100%", height: "100%", border: "none" }}
               title="webview"
             />
           ) : (
             <WebView
               ref={webViewRef}
-              source={{ uri: 'https://your-website-url.com' }}
+              source={{ uri: 'https://your-website-url.com' }} //Replace "https://your-website-url.com" with your actual website URL.
               style={styles.webview}
               startInLoadingState={true}
               onNavigationStateChange={navState => setCanGoBack(navState.canGoBack)}
