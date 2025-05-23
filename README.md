@@ -37,11 +37,17 @@ Replace "https://your-website-url.com" with your actual website URL.
 ```
 ---
 
-##🛠️ **Prerequisites**
+## 🛠️ **Prerequisites**
 
 - Node.js (v16+ recommended)
 - Expo CLI installed globally: Run this command in your **VS Code terminal or command prompt:**
   ```npm install -g expo-cli```
 - Android or iOS device/emulator for testing
+---
+
+## ▶️ How to Run Locally
+Run all commands in your VS Code terminal or your preferred command-line interface.
+
+Clone the repository:```git clone https://github.com/shashankksoni/ReactNativeWebViewApp.git```
 
 
