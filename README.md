@@ -157,8 +157,26 @@ If you find this project useful, please give it a ⭐️ on GitHub!
 <p align="center"> Made with ❤️ by Shashank </p> 
 
 
-## 🎬 Demo Preview
-<p align="center"> <img src="[https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/1.PNG(https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/1.PNG)" alt="Demo GIF" width="300" /> </p>
+## 📸 Screenshots
+
+<p align="center">
+  <img src="[https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/screenshots/screen1.png(https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/1.PNG)" alt="Screenshot 1" width="400" /><br>
+</p>
+
+<p align="center">
+  <img src="https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/screenshots/screen2.png" alt="Screenshot 2" width="400" /><br>
+  <em>Screenshot 2: Error Screen</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/screenshots/screen3.png" alt="Screenshot 3" width="400" /><br>
+  <em>Screenshot 3: Pull-to-Refresh</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/screenshots/screen4.png" alt="Screenshot 4" width="400" /><br>
+  <em>Screenshot 4: Dark Mode</em>
+</p>
 
 
     
