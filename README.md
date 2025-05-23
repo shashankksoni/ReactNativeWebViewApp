@@ -67,6 +67,26 @@ This app uses Expo Application Services (EAS) for building and deploying your Re
 - Run this command in your VS Code terminal or command prompt to authenticate your Expo account: ```npx expo login```
 - Enter your Expo credentials when prompted. If you don’t have an Expo account, you can create one at https://expo.dev/signup.
 
+### Step 2: Export the project for Web (optional)
+- If you want to export your app as a web project, run: ```npx expo export --platform web```
+- This generates static web assets that can be hosted on any web server.
+
+### Step 3: Deploy your app using EAS
+- Use Expo Application Services to build and deploy your app for Android and iOS: ```eas deploy```
+- This command will build your app, upload it to Expo servers, and deploy it according to your eas.json configuration.
+  - Note: You must have eas-cli installed globally for this command: ```npm install -g eas-cli```
+    - You can find detailed docs on EAS here: https://docs.expo.dev/eas/
+### Alternative build commands
+If you prefer classic Expo builds, you can still use:
+- For Android: ```expo build:android```
+- For iOS: ```expo build:ios```
+
+
+
+
+    
+
+
 
 
 
