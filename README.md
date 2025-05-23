@@ -81,6 +81,17 @@ If you prefer classic Expo builds, you can still use:
 - For Android: ```expo build:android```
 - For iOS: ```expo build:ios```
 
+### 🗂️ Project Structure
+```ReactNativeWebViewApp/
+├── App.js (or App.tsx)
+├── app.json
+├── package.json
+├── node_modules/
+├── assets/
+├── components/
+├── README.md
+└── .gitignore
+```
 
 
 
