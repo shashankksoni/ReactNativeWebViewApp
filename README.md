@@ -158,7 +158,7 @@ If you find this project useful, please give it a ⭐️ on GitHub!
 
 
 ## 🎬 Demo Preview
-<p align="center"> <img src="https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/demo.gif" alt="Demo GIF" width="300" /> </p>
+<p align="center"> <img src="[https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/1.PNG(https://github.com/shashankksoni/ReactNativeWebViewApp/blob/main/1.PNG)" alt="Demo GIF" width="300" /> </p>
 
 
     
