@@ -76,12 +76,13 @@ This app uses Expo Application Services (EAS) for building and deploying your Re
 - This command will build your app, upload it to Expo servers, and deploy it according to your eas.json configuration.
   - Note: You must have eas-cli installed globally for this command: ```npm install -g eas-cli```
     - You can find detailed docs on EAS here: https://docs.expo.dev/eas/
+    
 ### Alternative build commands
 If you prefer classic Expo builds, you can still use:
 - For Android: ```expo build:android```
 - For iOS: ```expo build:ios```
 
-### 🗂️ Project Structure
+## 🗂️ Project Structure
 ```ReactNativeWebViewApp/
 ├── App.js (or App.tsx)
 ├── app.json
@@ -92,6 +93,28 @@ If you prefer classic Expo builds, you can still use:
 ├── README.md
 └── .gitignore
 ```
+## 📄 License
+This project is licensed under the MIT License.
+
+## 🙋‍♂️ Author
+Shashank Kumar Soni
+📧 shashanksoni192@gmail.com
+🔗 GitHub Profile
+
+## 🤝 Collaboration & Future Features
+If you would like to suggest new features or collaborate on improvements for this app, feel free to reach out to me anytime!
+
+📱 WhatsApp: +91-9455384917
+
+📧 Email: shashanksoni192@gmail.com
+
+I’m open to working together to enhance this project with new functionality and customizations.
+
+## ⭐️ Support
+If you find this project useful, please give it a ⭐️ on GitHub!
+
+<p align="center"> Made with ❤️ by Shashank </p> ```
+
 
 
 
