@@ -48,6 +48,10 @@ Replace "https://your-website-url.com" with your actual website URL.
 ## ▶️ How to Run Locally
 Run all commands in your VS Code terminal or your preferred command-line interface.
 
-Clone the repository:```git clone https://github.com/shashankksoni/ReactNativeWebViewApp.git```
+1. Clone the repository: ```git clone https://github.com/shashankksoni/ReactNativeWebViewApp.git```
+2. Navigate to the project folder: ```cd ReactNativeWebViewApp```
+3. Install dependencies: ```npm install``` or ```yarn install```
+
+
 
 
