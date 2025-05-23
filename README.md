@@ -34,7 +34,7 @@ Example:
 ```jsx
 <WebView source={{ uri: "https://your-website-url.com" }} />
 Replace "https://your-website-url.com" with your actual website URL.
-```
+
 ---
 
 ## 🛠️ **Prerequisites**
