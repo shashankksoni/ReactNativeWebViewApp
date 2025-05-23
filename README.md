@@ -51,6 +51,27 @@ Run all commands in your VS Code terminal or your preferred command-line interfa
 1. Clone the repository: ```git clone https://github.com/shashankksoni/ReactNativeWebViewApp.git```
 2. Navigate to the project folder: ```cd ReactNativeWebViewApp```
 3. Install dependencies: ```npm install``` or ```yarn install```
+4. Start the Expo development server: ```npx expo start -c``` Here, -c means when it will start running the Expo Server it will remove all the cache file first and then it      starts the server. It is not necessary to run but you can there is no harm otherwise you can run only: ```npx expo start```
+5. Run on device or emulator:
+   - First intall the Expo Go app on your android/iOS phone.
+   - Scan the QR code with Expo Go app on your phone.
+   - Or launch simulators from Expo CLI options.
+---
+
+## 🚀 Deployment & Publishing
+
+This app uses Expo Application Services (EAS) for building and deploying your React Native project with ease.
+
+### Step 1: Login to Expo
+
+Run this command in your VS Code terminal or command prompt to authenticate your Expo account:
+
+```bash
+npx expo login
+
+
+
+
 
 
 
