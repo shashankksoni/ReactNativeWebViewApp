@@ -81,6 +81,7 @@ This app uses Expo Application Services (EAS) for building and deploying your Re
 If you prefer classic Expo builds, you can still use:
 - For Android: ```expo build:android```
 - For iOS: ```expo build:ios```
+---
 
 ## 🗂️ Project Structure
 ```ReactNativeWebViewApp/
@@ -93,14 +94,18 @@ If you prefer classic Expo builds, you can still use:
 ├── README.md
 └── .gitignore
 ```
+---
 ## 📄 License
 This project is licensed under the MIT License.
+
+---
 
 ## 🙋‍♂️ Author
 Shashank Kumar Soni
 📧 shashanksoni192@gmail.com
 🔗 [GitHub Profile](https://github.com/shashankksoni)
 
+---
 
 ## 🤝 Collaboration & Future Features
 If you would like to suggest new features or collaborate on improvements for this app, feel free to reach out to me anytime!
@@ -110,6 +115,8 @@ If you would like to suggest new features or collaborate on improvements for thi
 📧 Email: shashanksoni192@gmail.com
 
 I’m open to working together to enhance this project with new functionality and customizations.
+
+---
 
 ## ⭐️ Support
 If you find this project useful, please give it a ⭐️ on GitHub!
