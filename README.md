@@ -64,10 +64,8 @@ This app uses Expo Application Services (EAS) for building and deploying your Re
 
 ### Step 1: Login to Expo
 
-Run this command in your VS Code terminal or command prompt to authenticate your Expo account:
-
-```npx expo login```
-Enter your Expo credentials when prompted. If you don’t have an Expo account, you can create one at https://expo.dev/signup.
+- Run this command in your VS Code terminal or command prompt to authenticate your Expo account: ```npx expo login```
+- Enter your Expo credentials when prompted. If you don’t have an Expo account, you can create one at https://expo.dev/signup.
 
 
 
