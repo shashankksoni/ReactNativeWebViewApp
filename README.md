@@ -8,7 +8,7 @@
 <p align="center">
   <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/shashankksoni/ReactNativeWebViewApp?style=social" />
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/shashankksoni/ReactNativeWebViewApp" />
-  <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue.svg" /> 
   <img alt="Expo version" src="https://img.shields.io/badge/Expo-v48-green" />
   <img alt="React Native" src="https://img.shields.io/badge/React_Native-0.71.7-blue" />
 </p>
@@ -147,6 +147,7 @@ If you prefer classic Expo builds, you can still use:
 ---
 ## 📄 License
 This project is licensed under the MIT License.
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
