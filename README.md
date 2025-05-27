@@ -62,11 +62,43 @@ Replace "https://your-website-url.com" with your actual website URL.
 
 ## 🛠️ **Prerequisites**
 
-Make sure you have these installed:
-- Node.js (v16+ recommended)([https://nodejs.org/](https://nodejs.org/en))
-- Install Expo CLI globally (run in VS Code terminal or command prompt)
-  ```npm install -g expo-cli```
-- Android or iOS device/emulator for testing
+Before setting up and running this project, ensure that you have the following dependencies installed in VS Code and on your machine:
+
+**1. Node.js and npm (or Yarn)**
+
+  - Node.js is required for managing packages and running your React Native project. You can download the latest LTS version from here ([https://nodejs.org/](https://nodejs.org/en))
+  - npm comes bundled with Node.js, but if you prefer Yarn, install it globally using the following command: ```npm install -g yarn```
+  - Check if Node.js and npm are installed:
+      - node -v   # Check Node.js version
+      - npm -v    # Check npm version
+  
+**2. Install Expo CLI**
+
+  - Expo CLI is required to work with Expo projects and run commands such as ```expo start```:
+    - To install Expo CLI globally, run: ```npm install -g expo-cli```
+    - Check if Expo CLI is installed: ```expo --version```
+
+**3. React Native WebView**
+
+  - The core feature of this app uses React Native WebView, so make sure you have it installed as a dependency: ```npx expo install react-native-webview```
+
+**4. EAS CLI**
+
+  - To configure builds and deployments with Expo Application Services (EAS), you need to install EAS CLI: ```npx expo install eas-cli```
+
+    - Login to your Expo account: ```eas login```
+
+  **5. Visual Studio Code (VS Code)**
+
+  - Ensure that Visual Studio Code (VS Code) is installed for code editing. Download it from here ([https://code.visualstudio.com/](https://code.visualstudio.com/))
+
+    - Install the following extensions in VS Code for a better development experience:
+      - ESLint (for linting and code style checks)
+      - Prettier - Code formatter (for automatic code formatting)
+      - React Native Tools (for debugging and managing React Native apps)
+      - GitLens (for better Git integration and file history)
+      You can search for these extensions directly in the VS Code Extensions Marketplace.
+
 ---
 
 ## ▶️ How to Run Locally
