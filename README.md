@@ -86,20 +86,46 @@ Run all these commands in your VS Code terminal or your preferred command-line i
 
 This app uses Expo Application Services (EAS) for building and deploying your React Native project with ease.
 
-### Step 1: Login to Expo
+### Step 1: Install WebView
 
-- Run this command in your VS Code terminal or command prompt to authenticate your Expo account: ```npx expo login```
-- Enter your Expo credentials when prompted. If you don’t have an Expo account, you can create one at https://expo.dev/signup.
+If you haven’t installed WebView yet, run the following command in your VS Code terminal or command prompt: ```npx expo install react-native-webview```
 
-### Step 2: Export the project for Web (optional)
-- If you want to export your app as a web project, run: ```npx expo export --platform web```
-- This generates static web assets that can be hosted on any web server.
+### Step 2: Configure for EAS Build
 
-### Step 3: Deploy your app using EAS
-- Use Expo Application Services to build and deploy your app for Android and iOS: ```eas deploy```
-- This command will build your app, upload it to Expo servers, and deploy it according to your eas.json configuration.
-  - Note: You must have eas-cli installed globally for this command: ```npm install -g eas-cli```
-    - You can find detailed docs on EAS here: https://docs.expo.dev/eas/
+Make sure you have EAS Build set up to use Expo’s native build services:
+- First, install the EAS CLI: ```npx expo install eas-cli```
+- Log in to your Expo account: ```eas login```
+- Then, initialize EAS for your project: ```eas build:configure```
+
+### Step 3: Prebuild the App
+
+To enable native modules (like WebView), run the following command. This will generate the ```android``` and ```ios``` directories with the proper native code: ```npx expo prebuild```
+
+This step is required for native modules, as WebView requires native code to function correctly.
+
+
+### Step 4: Build with EAS
+
+Now, to build the APK or AAB (Android App Bundle), run: ```eas build --platform android```
+
+For local testing (before publishing), you can build using the preview profile: ```eas build --profile preview --platform android```
+
+This will allow you to preview the app before finalizing the build.
+
+If you want to **install directly** to your device for testing, you can use: ```eas run --platform android```
+
+### Step 5: Do NOT Use ```expo start``` With WebView
+
+If you're using **Expo Go** to test your app, WebView won’t work because it's not included in the default Expo Go app.
+
+Instead, you must create a **custom development** client to use WebView: ```eas build --profile development --platform android```
+
+After building the development client, scan the QR code using the Expo Go app on your device to install it.
+
+
+  - **Note: You can find detailed docs on EAS here: https://docs.expo.dev/eas/  
+**
+---
     
 ### Alternative build commands
 If you prefer classic Expo builds, you can still use:
