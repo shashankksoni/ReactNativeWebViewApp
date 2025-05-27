@@ -97,7 +97,8 @@ Before setting up and running this project, ensure that you have the following d
       - Prettier - Code formatter (for automatic code formatting)
       - React Native Tools (for debugging and managing React Native apps)
       - GitLens (for better Git integration and file history)
-      You can search for these extensions directly in the VS Code Extensions Marketplace.
+      
+     You can search for these extensions directly in the VS Code Extensions Marketplace.
 
 ---
 
