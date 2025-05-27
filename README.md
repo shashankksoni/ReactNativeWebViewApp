@@ -147,7 +147,6 @@ If you prefer classic Expo builds, you can still use:
 ---
 ## 📄 License
 This project is licensed under the MIT License.
-![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
@@ -160,10 +159,11 @@ Shashank Kumar Soni
 
 ## 🙋‍♂️ Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/shashankksoni/(https://www.linkedin.com/in/shashank0211/))
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/shashank_soni)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/shashankksoni)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shashank0211/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/SKS9794)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/shashankksoni/ShashankKumarSoni)
 [![Email](https://img.shields.io/badge/Email-shashanksoni192%40gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:shashanksoni192@gmail.com)
+
 
 ---
 
