@@ -123,7 +123,7 @@ Instead, you must create a **custom development** client to use WebView: ```eas 
 After building the development client, scan the QR code using the Expo Go app on your device to install it.
 
 
-  - **Note: You can find detailed docs on EAS here: https://docs.expo.dev/eas/  
+Note: You can find detailed docs on EAS here: https://docs.expo.dev/eas/  
 **
 ---
     
